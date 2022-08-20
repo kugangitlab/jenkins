@@ -1,0 +1,27 @@
+Pipeline {
+
+Agent only 
+
+Stages {
+
+Stage (“build”) {
+
+     Steps {
+     echo 'building the application...'
+     }
+
+}
+stage ("test) {
+
+      steps { 
+      echo 'testing the application'
+      }
+  }
+  
+  stage("deploy") {
+   echo 'deploying the application'
+    steps { 
+        } 
+        } 
+       } 
+       }
